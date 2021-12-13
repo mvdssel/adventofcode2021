@@ -51,16 +51,6 @@ def countDots(grid):
     return sum(
         [ sum(row) for row in grid ]
     )
-    # count = 0
-
-    # lenX = len(grid)
-    # lenY = len(grid[0])
-
-    # for x in range(lenX):
-    #     for y in range(lenY):
-    #         count += not grid[x][y]
-
-    # return count
 
 # Read input
 isReadingFolds = False
@@ -106,4 +96,3 @@ for fold in folds:
     # printGrid(grid)
     
 printGrid(grid)
-
